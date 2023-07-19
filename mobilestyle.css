@@ -1,0 +1,26 @@
+/* For screens 800px and under */
+ @media screen and (max-width: 850px) {
+    /* For portrait orientation */
+     @media screen and (orientation: portrait) {
+         html, body{
+             height: 100%;
+             width: 100%;
+           /* overflow: hidden; */
+         }
+        }
+         #storyDiv{
+           width: 100%;
+         }
+   #choiceDiv{
+  width: 100%;
+     justify-content: center;
+}
+   #mainCanvas{
+     margin: auto;
+             height: 350px;
+           width: 350px;
+           /* position: absolute; */
+           overflow: hidden;
+   }
+         
+    }
